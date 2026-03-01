@@ -2,9 +2,10 @@ function firstWord(str) {
   // your code here
 	let word=""
 for(let i=0;i<str.length;i++){
-    word=word+str[i];
-    if(str[i]==" ")
+	if(str[i]==" ")
     break;
+    word=word+str[i];
+    
 }
 	return word;
 }
